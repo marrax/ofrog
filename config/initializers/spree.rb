@@ -9,7 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-  config.site_name = "The Orange Frog Confectionery Co."
+#  config.site_name = "The Orange Frog Confectionery Co."
   config.allow_ssl_in_staging = false
   config.allow_ssl_in_production = false
 end
