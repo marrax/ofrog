@@ -28,7 +28,7 @@ set :pty, true
 # Default value for :linked_files is []
 #set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 set :linked_files, %w{config/database.example.yml}
-set :keep_releases, 5
+set :keep_releases, 3
 
 # Default value for linked_dirs is []
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
