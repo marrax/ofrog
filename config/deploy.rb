@@ -5,6 +5,7 @@ set :application, 'ofrog'
 set :repo_url, 'git@github.com:marrax/ofrog.git'
 set :deploy_user, 'deployer'
 set :rvm_type, :user
+set :pty, true
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -50,13 +51,13 @@ set(:executable_config_files, %w(
 
 set(:symlinks, [
   {
+    source: "unicorn_init.sh",
+    link: "/etc/init.d/unicorn_{{full_app_name}}"
+  },
+  {
     source: "nginx.conf",
     #link: "/etc/nginx/sites-enabled/#{fetch(:full_app_name)}"
     link: "/etc/nginx/sites-enabled/{{full_app_name}}"
-  },
-  {
-    source: "unicorn_init.sh",
-    link: "/etc/init.d/unicorn_{{full_app_name}}"
   }
 
 ])

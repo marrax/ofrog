@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: ofrog_prod
   pool: 5
-  username: g
-  password: g!
+  username: ofroglive
+  password: 99SweetFr0g!
