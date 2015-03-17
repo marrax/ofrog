@@ -20,7 +20,7 @@ development:
   database: ofrog_stage
   pool: 5
   username: ofrog
-  password: XX99SweetFr0g!
+  password: 99SweetFr0g!
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
