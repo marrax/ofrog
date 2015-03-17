@@ -82,7 +82,7 @@ namespace :deploy do
       # end
     end
   end
-after 'deploy:symlink:shared' , 'deploy:compile_assets_locally'
+#after 'deploy:symlink:shared' , 'deploy:compile_assets_locally'
 
 end
 
