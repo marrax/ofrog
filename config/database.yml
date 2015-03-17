@@ -57,4 +57,4 @@ production:
   database: ofrog_prod
   pool: 5
   username: ofroglive
-  password: 99SweetFr0g!
+  password: ofroglive123
