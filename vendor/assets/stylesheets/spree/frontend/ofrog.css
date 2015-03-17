@@ -1,0 +1,54 @@
+.cart-subtotal, .cart-total {
+  background: #FF9933;
+}
+
+ul#products li a.info {
+  height: 35px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #4F3806;
+  border-bottom: 1px solid #d9d9db;
+  overflow: hidden;
+}
+
+/* line 503, /home/mspree/.rvm/gems/ruby-2.1.0@spree2.4/gems/spree_frontend-2.4.4/app/assets/stylesheets/spree/frontend/screen.css.scss */
+ul#products li .product-image {
+  border: 1px solid #FFFFFF;
+  padding: 3px;
+  min-height: 105px;
+  background-color: rgb(255, 255, 255);
+}
+
+#footer#footer {
+    background: none repeat scroll 0 0 #FF8000;
+    padding: 10px 0;
+    border-top: 3px solid #000725;
+}
+
+/* Set the footer text color */
+#footer, #footer p {
+	color: #FFFFFF; /* dark gray */
+}
+ 
+/* Set the footer hyperlink to a different color */
+#footer a {
+	color: #FFFFFF; /* white */
+}
+ 
+/* Set the footer hyperlink hover to a different color */
+#footer a:hover {
+	color: #FFCC99; /* light orange */
+}
+ 
+/* Center the footer text and add a drop shadow */
+#footer p {
+	text-align: center;
+	color:#FFFFFF;
+	margin:25px 0 0;
+	text-shadow:0 2px 3px rgba(0, 0, 0, 0.5); /* This may not work with all browsers */
+}
+
+/* Remove the bullets from lists */
+ul {
+list-style-type: none;
+}

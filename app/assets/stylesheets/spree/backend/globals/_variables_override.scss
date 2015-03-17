@@ -1,0 +1,21 @@
+// -------------------------------------------------------------
+//   Variables used in all other files
+// Colors
+//--------------------------------------------------------------
+// Basic color palette for admin
+$color-1:                        #FFFFFF !default;    // White
+$color-2:                        #9FC820 !default;    // Green
+$color-3:                        #5498DA !default;    // Light Blue
+$color-4:                        #FF8000 !default;    // Dark Blue
+$color-5:                        #C60F13 !default;    // Red
+$color-6:                        #FF9300 !default;    // Yellow
+// Body base colors
+$color-body-bg:                  $color-1 !default;
+$color-body-text:                $color-4 !default;
+$color-headers:                  $color-5 !default;
+$color-link:                     $color-3 !default;
+$color-link-hover:               $color-5 !default;
+$color-link-active:              $color-5 !default;
+$color-link-focus:               $color-5 !default;
+$color-link-visited:             $color-3 !default;
+$color-border:                   very-light($color-3, 12) !default;
