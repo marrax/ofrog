@@ -3,7 +3,7 @@ set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 server '178.62.1.140', user: 'deployer', roles: %w{web app db}, primary: true
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 set :rails_env, :production
-set :unicorn_worker_count, 2
+set :unicorn_worker_count, 3
 set :enable_ssl, false
 
 
