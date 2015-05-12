@@ -55,4 +55,4 @@ gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :bra
 gem 'spree_static_content', :github => 'spree/spree_static_content', :branch => '2-4-stable'
 gem 'spree_editor', :github => 'spree/spree_editor', :branch => '2-4-stable'
 gem 'spree_social_products', github: 'spree-contrib/spree_social_products', branch: '2-4-stable'
-
+gem 'spree_postal_service', github: 'futhr/spree-postal-service', branch: '2-4-stable' 
