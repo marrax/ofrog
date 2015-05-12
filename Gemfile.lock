@@ -16,6 +16,14 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_mail_settings.git
+  revision: 3d8906d58d8cce7c3a5ed07f2d2a962f57a7c4e2
+  branch: 2-4-stable
+  specs:
+    spree_mail_settings (2.2.0)
+      spree_backend (~> 2.4.0)
+
+GIT
   remote: git://github.com/spree-contrib/spree_social_products.git
   revision: baa449f069080535a446f693cd9af8181a7fd49f
   branch: 2-4-stable
@@ -400,6 +408,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_editor!
   spree_gateway!
+  spree_mail_settings!
   spree_paypal_express!
   spree_postal_service!
   spree_social_products!
