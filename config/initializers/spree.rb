@@ -5,6 +5,10 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+Spree::AppConfiguration.class_eval do
+  preference :facebook_app_id, :string
+end
+
 Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
@@ -12,6 +16,8 @@ Spree.config do |config|
 #  config.site_name = "The Orange Frog Confectionery Co."
   config.allow_ssl_in_staging = false
   config.allow_ssl_in_production = false
+  config.facebook_app_id = "665438996934380"
 end
 
 Spree.user_class = "Spree::User"
+
