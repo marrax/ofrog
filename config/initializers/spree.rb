@@ -17,6 +17,7 @@ Spree.config do |config|
   config.allow_ssl_in_staging = false
   config.allow_ssl_in_production = false
   config.facebook_app_id = "665438996934380"
+#  config.products_per_page = 100
 end
 
 Spree.user_class = "Spree::User"
