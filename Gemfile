@@ -57,3 +57,4 @@ gem 'spree_social_products', github: 'spree-contrib/spree_social_products', bran
 gem 'spree_postal_service', github: 'futhr/spree-postal-service', branch: '2-4-stable' 
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-4-stable'
 gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '2-4-stable'
+gem 'spree_print_invoice' , github: 'spree-contrib/spree_print_invoice', branch: '2-4-stable'
