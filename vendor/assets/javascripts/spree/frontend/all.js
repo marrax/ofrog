@@ -12,3 +12,4 @@
 //= require spree/frontend/spree_paypal_express
 //= require spree/frontend/spree_social_products
 //= require spree/product_zoom
+//= require jquery.nivo.slider.pack.js

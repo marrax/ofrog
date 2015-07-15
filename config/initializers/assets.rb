@@ -9,3 +9,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( ckeditor/*)
 Rails.application.config.assets.precompile += %w( tinymce*) 
 Rails.application.config.assets.precompile += %w( spree/frontend/*.png) 
+Rails.application.config.assets.precompile += %w( spree/frontend/*.gif) 

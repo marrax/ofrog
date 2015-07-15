@@ -11,4 +11,8 @@
  *= require spree/frontend/spree_paypal_express
  *= require spree/frontend/spree_static_content
  *= require spree/product_zoom
+ *= require themes/default/default
+ *= require themes/pascal/pascal
+ *= require themes/orman/orman
+ *= require nivo-slider
 */

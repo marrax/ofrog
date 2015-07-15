@@ -59,3 +59,4 @@ gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: 
 gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '2-4-stable'
 gem 'spree_print_invoice' , github: 'spree-contrib/spree_print_invoice', branch: '2-4-stable'
 gem "spree_product_zoom", github: 'spree-contrib/spree_product_zoom', branch: '2-4-stable'
+gem "spree_slider", github: 'spree-contrib/spree_slider', branch: '2-4-stable'
